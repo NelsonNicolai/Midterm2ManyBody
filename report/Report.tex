@@ -1,0 +1,51 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[a4paper,
+            left=2cm,
+            right=2cm,
+            top=2cm,
+            bottom=3cm,]{geometry}
+
+\usepackage{graphicx}
+\usepackage{pdfpages}
+% Required for inserting images
+\usepackage[extendedchars]{grffile}
+\usepackage[position=below,format=hang,bf]{caption}
+
+
+\usepackage{mathtools}
+\usepackage{siunitx}
+\usepackage{amsxtra,amssymb,amsthm,amstext}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{url}
+\usepackage{float} 
+\usepackage[affil-it]{authblk}
+\usepackage{scrhack}
+\usepackage{hyperref}
+
+
+\title{Second Midterm}
+\author{Nelson Nicolai Jørgensen}
+\date{November 2026}
+
+
+\begin{document}
+
+\maketitle
+
+\includepdf[pages=-]{Tasks/RayleighPerturbation.pdf} %task1
+
+\includepdf[pages=-]{Tasks/WaveOperator.pdf}
+
+\includepdf[pages=-]{Tasks/EnergyThirdOrder.pdf}
+
+\includepdf[pages=-]{Tasks/HartreeFockPerturbation.pdf}
+
+\includepdf[pages=-]{Tasks/SlaterSingleBasis.pdf}
+
+\section{Program section}
+\input{Tasks/Program.tex}
+
+\includepdf[pages=-]{Tasks/Comparison.pdf}
+
+\end{document}
